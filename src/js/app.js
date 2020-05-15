@@ -8,7 +8,7 @@ const characters = [
 
 const attacks = setUpAttacks(characters, true);
 
-//attacks[1](9);
+// attacks[1](9);
 attacks[1](20);
 attacks[1](20);
 
