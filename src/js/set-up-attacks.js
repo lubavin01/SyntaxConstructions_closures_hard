@@ -1,5 +1,5 @@
 export default function setUpAttacks(characters, shield = true) {
-  const functions = characters.map((victim) => (
+  return characters.map((victim) => (
     (damage) => {
       // console.log( `${victim.name} attacked for ${damage} damage` );
 
@@ -42,6 +42,4 @@ export default function setUpAttacks(characters, shield = true) {
       }
     }
   ));
-
-  return functions;
 }
